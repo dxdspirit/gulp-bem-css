@@ -1,12 +1,22 @@
-var gulp = require('gulp');
-var minifyCss = require('gulp-minify-css');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const del = require('del');
 
-gulp.task('sass', function() {
-    return gulp.src('css/**/*.css')
-        .pipe((minifyCss()))
-        .pipe(gulp.dest('dist/'));
+gulp.task('styles', () => {
+    return gulp.src('scss/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('./css/'));
 });
 
-gulp.task('watch', function() {
-    gulp.watch('css/**/*.css', gulp.series('sass'));
-})
+gulp.task('clean', () => {
+    return del([
+        'css/main.css',
+    ]);
+});
+gulp.task('watch', () => {
+    gulp.watch('sass/**/*.scss', (done) => {
+        gulp.series(['clean', 'styles'])(done);
+    });
+});
+
+gulp.task('default', gulp.series(['clean', 'styles']));
