@@ -1,138 +1,214 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-  font-family: Arial, Helvetica, sans-serif; }
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 button {
-  font-family: 'Poppins', sans-serif; }
+    font-family: 'Poppins', sans-serif;
+}
+
 
 /* Header */
+
 header {
-  display: flex;
-  width: 80%;
-  height: 5vh;
-  margin: auto;
-  align-items: center; }
+    display: flex;
+    width: 80%;
+    height: 5vh;
+    margin: auto;
+    align-items: center;
+}
 
 .highlight {
-  font-size: 50px; }
+    font-size: 50px;
+}
 
 .logo,
 .nav__list,
 .button {
-  display: flex; }
+    display: flex;
+}
+
 
 /* flex header */
+
 .logo {
-  flex: 1; }
+    flex: 1;
+}
 
 .nav {
-  flex: 2; }
+    flex: 2;
+}
 
 .button {
-  flex: 1; }
+    flex: 1;
+}
+
 
 /* end flex header */
+
 .logo__name {
-  font-size: 30px;
-  margin: 10px; }
-  .logo__name--highlight {
-    color: red; }
+    font-size: 30px;
+    margin: 10px;
+}
+
+.logo__name--highlight {
+    color: red;
+}
 
 .nav__list--normalize {
-  list-style: none;
-  justify-content: space-around; }
+    list-style: none;
+    justify-content: space-around;
+}
 
 .nav__item {
-  color: #7D7D7C;
-  text-decoration: none; }
+    color: #7D7D7C;
+    text-decoration: none;
+}
 
 .nav__nav-link {
-  color: #f44336;
-  text-decoration: none; }
+    color: #f44336;
+    text-decoration: none;
+}
 
 .presentation {
-  margin: auto;
-  text-align: center; }
-  .presentation__intro--explore {
-    padding-top: 70px; }
-  .presentation__intro--services {
+    margin: auto;
+    text-align: center;
+}
+
+.presentation__intro--explore {
     padding-top: 70px;
-    padding-bottom: 50px; }
-  .presentation__intro--pricing {
+}
+
+.presentation__intro--services {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.presentation__intro--pricing {
     padding-top: 20px;
-    padding-bottom: 50px; }
-  .presentation__button {
-    margin-top: 30px; }
-  .presentation--home {
+    padding-bottom: 50px;
+}
+
+.presentation__intro--team {
+    padding-top: 70px;
+}
+
+.presentation__button {
+    margin-top: 30px;
+}
+
+.presentation--home {
     padding-top: 200px;
     min-height: 80vh;
-    background-color: #7D7D7C; }
-  .presentation--explore {
+    background-color: #7D7D7C;
+}
+
+.presentation--explore {
     min-height: 20vh;
-    background-color: white; }
-  .presentation--pricing {
+    background-color: white;
+}
+
+.presentation--pricing {
     padding-top: 30px;
     min-height: 80vh;
-    background-color: #CAFAFA; }
-  .presentation--services {
+    background-color: #CAFAFA;
+}
+
+.presentation--services {
     min-height: 80vh;
-    background-color: white; }
+    background-color: white;
+}
+
+.presentation--team {
+    min-height: 80vh;
+    background-color: #CAFAFA;
+}
 
 .intro__title {
-  font-size: 40px;
-  font-weight: 500; }
-  .intro__title--white {
-    color: white; }
-  .intro__title--black {
-    color: black; }
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.intro__title--white {
+    color: white;
+}
+
+.intro__title--black {
+    color: black;
+}
 
 .intro__text {
-  margin-left: 25%;
-  max-width: 50%;
-  margin-top: 10px;
-  color: white;
-  font-size: 12px;
-  text-align: center; }
-  .intro__text--white {
-    color: white; }
-  .intro__text--black {
-    color: black; }
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.intro__text--white {
+    color: white;
+}
+
+.intro__text--black {
+    color: black;
+}
+
+.intro__text--team {
+    margin-left: 10%;
+    color: black;
+}
+
 
 /* SHOWCASE */
+
 .showcase {
-  background: #EBF1F1;
-  display: flex; }
-  .showcase__image {
-    flex: 1.5; }
-  .showcase__content {
-    flex: 1; }
-  .showcase__main-img {
+    background: #EBF1F1;
+    display: flex;
+}
+
+.showcase__image {
+    flex: 1.5;
+}
+
+.showcase__content {
+    flex: 1;
+}
+
+.showcase__main-img {
     margin-top: 50px;
     margin-left: 10%;
     margin-bottom: 50px;
-    width: 90%; }
+    width: 90%;
+}
 
 .box__img {
-  width: 5%; }
+    width: 5%;
+}
 
 .box__content {
-  display: flex;
-  align-items: center;
-  margin-top: 100px;
-  margin-left: 10%; }
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
 
 /* PRICING */
+
 .pricing-list {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 10%;
-  width: 90%; }
-  .pricing-list__item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.pricing-list__item {
     align-items: center;
     box-shadow: 2px 2px 2px #aaaaaa;
     border-radius: 7px;
@@ -141,65 +217,136 @@ header {
     text-align: center;
     width: 17%;
     height: 300px;
-    padding: 10px; }
+    padding: 10px;
+}
 
 .item__title {
-  margin-top: 10px; }
+    margin-top: 10px;
+}
 
 .item__price {
-  margin-top: 10px; }
+    margin-top: 10px;
+}
+
 
 /* OFFER */
+
 .offers {
-  margin-top: 20px;
-  float: left; }
-  .offers__offer {
+    margin-top: 20px;
+    float: left;
+}
+
+.offers__offer {
+    margin-left: 30px;
+    width: 30%;
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.offer {
     margin-left: 30px;
     max-width: 30%;
     margin-top: 50px;
     display: inline-flex;
-    align-items: flex-start; }
+    align-items: flex-start;
+}
 
-.offer {
-  margin-left: 30px;
-  max-width: 30%;
-  margin-top: 50px;
-  display: inline-flex;
-  align-items: flex-start; }
-  .offer__img {
+.offer__img {
     width: 30px;
-    height: 30px; }
-  .offer__text {
+    height: 30px;
+}
+
+.offer__text {
+    text-align: start;
+    padding-left: 5px;
+}
+
+
+/*TEAM*/
+
+.team-list {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.team-list__item {
+    align-items: center;
+    box-shadow: 2px 2px 2px #aaaaaa;
+    border-radius: 7px;
+    margin: 5%;
+    background: white;
     text-align: center;
-    padding-left: 5px; }
+    width: 20%;
+    height: 300px;
+    padding: 10px;
+}
+
+.item__img {
+    background: #CAFAFA;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+    box-shadow: 0px 0px 0px 7px #CAFAFA;
+}
+
+.item__content {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.content__text {
+    margin-top: 20px;
+}
+
+.content__text--small {
+    font-size: 14px;
+}
+
 
 /* button */
+
 .btn {
-  background-color: white;
-  border: none;
-  color: black;
-  border: 2px solid #f44336;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer; }
-  .btn--signup {
+    background-color: white;
+    border: none;
+    color: black;
+    border: 2px solid #f44336;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn--signup {
     border-radius: 24px;
     background-color: white;
     color: black;
-    border: 2px solid #f44336; }
-  .btn--demo {
+    border: 2px solid #f44336;
+}
+
+.btn--demo {
     height: 50px;
     font-size: 20px;
     width: 200px;
     border-radius: 4px;
     background-color: transparent;
     color: black;
-    border: 2px solid white; }
-  .btn--price {
+    border: 2px solid white;
+}
+
+.btn--price {
     margin-top: 60px;
     height: 40px;
     font-size: 18px;
@@ -207,8 +354,10 @@ header {
     border-radius: 4px;
     background-color: #0eaeee;
     color: black;
-    border: 2px solid white; }
-  .btn--price-active {
+    border: 2px solid white;
+}
+
+.btn--price-active {
     margin-top: 60px;
     height: 40px;
     font-size: 18px;
@@ -217,8 +366,10 @@ header {
     padding: 7px 12px;
     background-color: red;
     color: white;
-    border: 1px solid red; }
-  .btn--offer {
+    border: 1px solid red;
+}
+
+.btn--offer {
     margin-top: 50px;
     height: 40px;
     font-size: 15px;
@@ -227,8 +378,10 @@ header {
     background-color: #0eaeee;
     color: white;
     box-shadow: 2px 2px 2px #7D7D7C;
-    border: #0eaeee; }
-  .btn--active {
+    border: #0eaeee;
+}
+
+.btn--active {
     height: 50px;
     font-size: 20px;
     width: 150px;
@@ -236,8 +389,10 @@ header {
     padding: 7px 12px;
     background-color: red;
     color: white;
-    border: 1px solid red; }
-  .btn--download {
+    border: 1px solid red;
+}
+
+.btn--download {
     height: 50px;
     font-size: 20px;
     width: 200px;
@@ -245,6 +400,139 @@ header {
     padding: 7px 12px;
     background-color: red;
     color: white;
-    border: 1px solid red; }
+    border: 1px solid red;
+}
+
 
 /* FOOTER */
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+/* Portrait */
+
+@media only screen and (max-width: 375px) {
+    header {
+        display: flex;
+        width: 100%;
+        height: 5vh;
+        margin: auto;
+        align-items: center;
+    }
+    .presentation {
+        width: 100%;
+    }
+    .presentation--home {
+        padding-top: 150px;
+    }
+    .presentation--services {
+        padding-top: 10px;
+    }
+    .presentation__intro {
+        width: 100%;
+    }
+    .intro__title {
+        margin: 0 0 0 0;
+        font-size: 30px;
+        width: 100%;
+    }
+    .intro__text {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    .nav__item {
+        font-size: 12px;
+    }
+    .offers {
+        float: none;
+        width: 100%;
+    }
+    .offers__offer {
+        margin: auto;
+        width: 100%;
+    }
+    .btn {
+        background-color: white;
+        border: none;
+        color: black;
+        border: 2px solid #f44336;
+        padding: 2px 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .btn--signup {
+        border-radius: 24px;
+        background-color: white;
+        color: black;
+        border: 2px solid #f44336;
+    }
+    .btn--demo {
+        height: 40px;
+        font-size: 20px;
+        width: 200px;
+        border-radius: 4px;
+        background-color: transparent;
+        color: black;
+        border: 2px solid white;
+    }
+    .btn--price {
+        margin-top: 60px;
+        height: 40px;
+        font-size: 18px;
+        width: 150px;
+        border-radius: 4px;
+        background-color: #0eaeee;
+        color: black;
+        border: 2px solid white;
+    }
+    .btn--price-active {
+        margin-top: 60px;
+        height: 40px;
+        font-size: 18px;
+        width: 150px;
+        border-radius: 4px;
+        padding: 7px 12px;
+        background-color: red;
+        color: white;
+        border: 1px solid red;
+    }
+    .btn--offer {
+        margin-top: 50px;
+        height: 40px;
+        font-size: 15px;
+        width: 150px;
+        border-radius: 4px;
+        background-color: #0eaeee;
+        color: white;
+        box-shadow: 2px 2px 2px #7D7D7C;
+        border: #0eaeee;
+    }
+    .btn--active {
+        height: 40px;
+        font-size: 20px;
+        width: 150px;
+        border-radius: 4px;
+        padding: 7px 12px;
+        background-color: red;
+        color: white;
+        border: 1px solid red;
+    }
+    .btn--download {
+        height: 40px;
+        font-size: 20px;
+        width: 200px;
+        border-radius: 4px;
+        padding: 7px 12px;
+        background-color: red;
+        color: white;
+        border: 1px solid red;
+    }
+}
+
+
+/* Landscape */
