@@ -28,7 +28,7 @@ button {
     margin: auto;
     align-items: center; }
   .highlight {
-    font-size: 50px; }
+    font-size: 40px; }
   .current {
     color: red; }
   .logo,
@@ -79,11 +79,12 @@ button {
       margin-top: 30px; }
     .presentation--home {
       padding-top: 120px;
-      min-height: 60vh;
+      min-height: 70vh;
       background-color: #7D7D7C; }
     .presentation--price {
-      padding: 40px 0 20px 0;
-      min-height: 20vh;
+      margin-bottom: 20px;
+      padding-top: 30px;
+      min-height: 100vh;
       background-color: #CAFAFA; }
     .presentation--services {
       min-height: 80vh;
@@ -97,7 +98,6 @@ button {
       font-size: 25px;
       color: white; }
     .intro__title--black {
-      font-size: 25px;
       color: black; }
   .intro__text {
     margin-top: 20px 0 20px 0;
@@ -107,15 +107,16 @@ button {
       font-size: 12px;
       color: white; }
     .intro__text--black {
-      margin-top: 20px;
-      font-size: 12px;
       color: black; }
     .intro__text--bottom {
       padding: 20px 0 20px 0;
       font-size: 10px; }
-  .bottom__bottom-content {
-    background: white; }
+  .bottom {
+    height: 200px; }
+    .bottom__bottom-content {
+      background: white; }
   .bottom-content__title {
+    font-size: 20px;
     margin: 20px 0px 10px 0px;
     text-align: center; }
   .bottom-content__text {
@@ -127,6 +128,7 @@ button {
     background: #EBF1F1;
     align-items: center; }
     .showcase__showcase-image {
+      height: 250px;
       width: 90%; }
     .showcase__showcase-content {
       width: 90%;
@@ -135,7 +137,7 @@ button {
     margin: 0 5% 10px 5%;
     height: 200px; }
     .showcase-image__img {
-      margin-top: 15px;
+      padding-top: 15px;
       width: 100%;
       height: 200px; }
   .showcase-content__box {
@@ -158,9 +160,17 @@ button {
     align-items: center;
     margin: 20px 0 10px 0; }
   .option {
-    align-items: center; }
-    .option__price-list {
-      width: 90%; }
+    padding-bottom: 20px; }
+  .price-list__item {
+    margin: 30px 10px 10px 10px;
+    background-color: white;
+    border-radius: 6px; }
+  .p-item__title {
+    font-size: 20px;
+    padding-top: 20px; }
+  .p-item__price {
+    margin: 8 0 0 0;
+    font-size: 20px; }
   .offers {
     margin-top: 20px;
     float: left; }
@@ -245,7 +255,7 @@ button {
       color: black;
       border: 2px solid white; }
     .btn--price {
-      margin-top: 60px;
+      margin-top: 15px;
       height: 40px;
       font-size: 18px;
       width: 150px;
@@ -254,7 +264,7 @@ button {
       color: black;
       border: 2px solid white; }
     .btn--price-active {
-      margin-top: 60px;
+      margin-top: 15px;
       height: 40px;
       font-size: 18px;
       width: 150px;

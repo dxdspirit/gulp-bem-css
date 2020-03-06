@@ -1,1 +1,312 @@
-.box__content,.button,.logo,.nav__list,.pricing-list,.showcase,header{display:flex}*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial,Helvetica,sans-serif}button{font-family:Poppins,sans-serif}header{width:80%;height:5vh;margin:auto;align-items:center}.highlight{font-size:50px}.logo{flex:1}.nav{flex:2}.button{flex:1}.logo__name{font-size:30px;margin:10px}.logo__name--highlight{color:red}.nav__list--normalize{list-style:none;justify-content:space-around}.nav__item{color:#7D7D7C;text-decoration:none}.nav-link{color:#f44336;text-decoration:none}.button-signup{justify-content:flex-end}.presentation{margin:auto;text-align:center;background-color:#7D7D7C;min-height:800px}.presentation--explore{min-height:20vh;background:#fff}.presentation--pricing{min-height:80vh;background:#30d7f5}.presentation--services{min-height:80vh;background:#fff}.presentation__intro{padding-top:200px}.presentation__intro--explore,.presentation__intro--services{padding-top:70px}.presentation__intro--pricing{padding-top:50px;padding-bottom:50px}.intro__title,.intro__title--white{font-size:40px;color:#fff;font-weight:500}.intro__title--black{font-size:40px;color:#000;font-weight:500}.intro__text,.intro__text--black,.intro__text--explore,.intro__text--white{margin-left:25%;max-width:50%;margin-top:10px;font-size:12px;text-align:center}.intro__text,.intro__text--white{color:#fff}.intro__text--black,.intro__text--explore{color:#000}.showcase{background:#7D7D7C}.showcase__image{flex:1.5}.showcase__content{flex:1}.box__content,.pricing-list{align-items:center;margin-left:10%}.showcase__main-img{margin-top:50px;margin-left:10%;margin-bottom:50px;width:90%}.box__img{width:5%}.box__content{margin-top:100px}.pricing-list{margin-top:20px;width:90%}.pricing-list__item{align-items:center;box-shadow:5px 5px 5px #aaa;border-radius:7px;margin:2.5%;background:#fff;text-align:center;width:17%;height:200px;padding:10px}footer li{display:inline;padding:0 20px}.contact--sub{float:left}.offer_img{width:30px;height:30px}.offers{margin-top:20px;float:left}.offers__offer{margin-left:30px;max-width:30%;margin-top:50px;display:inline-flex;align-items:flex-start}.offer__text{text-align:center;padding-left:5px}.presentation__button{margin-top:30px}.btn{background-color:#fff;color:#000;border:2px solid #f44336;padding:5px 10px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;cursor:pointer}.btn--signup{border-radius:24px;background-color:#fff;color:#000;border:2px solid #f44336}.btn--demo,.btn--price{height:50px;font-size:20px;border-radius:4px;color:#000}.btn--demo{width:200px;background-color:transparent;border:2px solid #fff}.btn--price{width:150px;background-color:#0eaeee;border:2px solid #fff}.btn--active,.btn--offer{width:150px;border-radius:4px}.btn--offer{margin-top:50px;height:40px;font-size:15px;background-color:#0eaeee;color:#fff;box-shadow:2px 2px 2px #7D7D7C;border:#0eaeee}.btn--active,.btn--download{height:50px;font-size:20px;padding:7px 12px;background-color:red;color:#fff}.btn--active{border:1px solid red}.btn--download{width:200px;border-radius:4px;border:1px solid red}@media screen and(max-width:1024px){.presentation,.pricing-list{flex-direction:column}}
+.box__content,
+.button,
+.logo,
+.nav__list,
+.pricing-list,
+.explore,
+header {
+    display: flex
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+button {
+    font-family: Poppins, sans-serif
+}
+
+header {
+    width: 80%;
+    height: 5vh;
+    margin: auto;
+    align-items: center
+}
+
+.highlight {
+    font-size: 50px
+}
+
+.logo {
+    flex: 1
+}
+
+.nav {
+    flex: 2
+}
+
+.button {
+    flex: 1
+}
+
+.logo__name {
+    font-size: 30px;
+    margin: 10px
+}
+
+.logo__name--highlight {
+    color: red
+}
+
+.nav__list--normalize {
+    list-style: none;
+    justify-content: space-around
+}
+
+.nav__item {
+    color: #7D7D7C;
+    text-decoration: none
+}
+
+.nav-link {
+    color: #f44336;
+    text-decoration: none
+}
+
+.button-signup {
+    justify-content: flex-end
+}
+
+.presentation {
+    margin: auto;
+    text-align: center;
+    background-color: #7D7D7C;
+    min-height: 800px
+}
+
+.presentation--explore {
+    min-height: 20vh;
+    background: #fff
+}
+
+.presentation--pricing {
+    min-height: 80vh;
+    background: #30d7f5
+}
+
+.presentation--services {
+    min-height: 80vh;
+    background: #fff
+}
+
+.presentation__intro {
+    padding-top: 200px
+}
+
+.presentation__intro--explore,
+.presentation__intro--services {
+    padding-top: 70px
+}
+
+.presentation__intro--pricing {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.intro__title,
+.intro__title--white {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500
+}
+
+.intro__title--black {
+    font-size: 40px;
+    color: #000;
+    font-weight: 500
+}
+
+.intro__text,
+.intro__text--black,
+.intro__text--explore,
+.intro__text--white {
+    margin-left: 25%;
+    max-width: 50%;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center
+}
+
+.intro__text,
+.intro__text--white {
+    color: #fff
+}
+
+.intro__text--black,
+.intro__text--explore {
+    color: #000
+}
+
+.explore {
+    background: #7D7D7C
+}
+
+.explore__image {
+    flex: 1.5
+}
+
+.explore__content {
+    flex: 1
+}
+
+.box__content,
+.pricing-list {
+    align-items: center;
+    margin-left: 10%
+}
+
+.explore__main-img {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    width: 90%
+}
+
+.box__img {
+    width: 5%
+}
+
+.box__content {
+    margin-top: 100px
+}
+
+.pricing-list {
+    margin-top: 20px;
+    width: 90%
+}
+
+.pricing-list__item {
+    align-items: center;
+    box-shadow: 5px 5px 5px #aaa;
+    border-radius: 7px;
+    margin: 2.5%;
+    background: #fff;
+    text-align: center;
+    width: 17%;
+    height: 200px;
+    padding: 10px
+}
+
+footer li {
+    display: inline;
+    padding: 0 20px
+}
+
+.contact--sub {
+    float: left
+}
+
+.offer_img {
+    width: 30px;
+    height: 30px
+}
+
+.offers {
+    margin-top: 20px;
+    float: left
+}
+
+.offers__offer {
+    margin-left: 30px;
+    max-width: 30%;
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: flex-start
+}
+
+.offer__text {
+    text-align: center;
+    padding-left: 5px
+}
+
+.presentation__button {
+    margin-top: 30px
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #f44336;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+}
+
+.btn--signup {
+    border-radius: 24px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #f44336
+}
+
+.btn--demo,
+.btn--price {
+    height: 50px;
+    font-size: 20px;
+    border-radius: 4px;
+    color: #000
+}
+
+.btn--demo {
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid #fff
+}
+
+.btn--price {
+    width: 150px;
+    background-color: #0eaeee;
+    border: 2px solid #fff
+}
+
+.btn--active,
+.btn--offer {
+    width: 150px;
+    border-radius: 4px
+}
+
+.btn--offer {
+    margin-top: 50px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #0eaeee;
+    color: #fff;
+    box-shadow: 2px 2px 2px #7D7D7C;
+    border: #0eaeee
+}
+
+.btn--active,
+.btn--download {
+    height: 50px;
+    font-size: 20px;
+    padding: 7px 12px;
+    background-color: red;
+    color: #fff
+}
+
+.btn--active {
+    border: 1px solid red
+}
+
+.btn--download {
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid red
+}
+
+@media screen and(max-width:1024px) {
+    .presentation,
+    .pricing-list {
+        flex-direction: column
+    }
+}

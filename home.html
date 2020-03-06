@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
     <title>Home</title>
 </head>
 
@@ -37,52 +38,195 @@
         </div>
     </header>
     <main>
-        <section class="presentation presentation--home">
-            <div class="presentation__intro intro">
-                <h1 class="intro__title intro__title--white">RWD- RESPONSIVE WEB DESIGN</h1>
-                <p class="intro__text intro__text--white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                    book.
-                </p>
-            </div>
-            <div class="presentation__button">
-                <button class="btn btn--demo">Demo</button>
-                <button class="btn btn--download">Download</button>
-            </div>
-
-        </section>
-        <div class="bottom">
-            <div class="bottom__bottom-content bottom-content">
-                <h1 class="bottom-content__title">Explore Our Products</h1>
-                <p class="bottom-content__text">sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                </p>
-            </div>
-        </div>
-        </section>
-        <div class="showcase">
-            <div class="showcase__showcase-image showcase-image">
-                <img class="showcase-image__img" src="./img/cat2.jpg" alt="">
-            </div>
-            <div class="showcase__showcase-content showcase-content">
-                <div class="showcase-content__box box">
-                    <div class="box__content">
-                        <img class="box__img" src="./img/icon1.png" alt="">
-                        <h1 class="box__title">Lorem Ipsum is simply dummy </h1>
-                    </div>
-                    <p class="box__detail"> Lorem Ipsum is simply dummy </p>
-                    <div class="box__content">
-                        <img class="box__img" src="./img/icon2.png" alt="">
-                        <h1 class="box__title">Lorem Ipsum is simply dummy </h1>
-                    </div>
-                    <p class="box__detail"> Lorem Ipsum is simply dummy </p>
-                    <div class="box__content">
-                        <img class="box__img" src="./img/icon3.png" alt="">
-                        <h1 class="box__title">Lorem Ipsum is simply dummy </h1>
-                    </div>
-                    <p class="box__detail"> Lorem Ipsum is simply dummy </p>
+        <section class="home">
+            <div class="presentation presentation--home">
+                <div class="presentation__intro intro">
+                    <h1 class="intro__title intro__title--white">RWD- RESPONSIVE WEB DESIGN</h1>
+                    <p class="intro__text intro__text--white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.
+                    </p>
+                </div>
+                <div class="presentation__button">
+                    <button class="btn btn--demo">Demo</button>
+                    <button class="btn btn--download">Download</button>
                 </div>
 
             </div>
-            </section>
+            <div class="bottom">
+                <div class="bottom__bottom-content bottom-content">
+                    <h1 class="bottom-content__title">Explore Our Products</h1>
+                    <p class="bottom-content__text">sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="showcase">
+                <div class="showcase__showcase-image showcase-image">
+                    <img class="showcase-image__img" src="./img/cat2.jpg" alt="">
+                </div>
+                <div class="showcase__showcase-content showcase-content">
+                    <div class="showcase-content__box box">
+                        <div class="box__content">
+                            <img class="box__img" src="./img/icon1.png" alt="">
+                            <h1 class="box__title">Lorem Ipsum is simply dummy </h1>
+                        </div>
+                        <p class="box__detail"> Lorem Ipsum is simply dummy </p>
+                        <div class="box__content">
+                            <img class="box__img" src="./img/icon2.png" alt="">
+                            <h1 class="box__title">Lorem Ipsum is simply dummy </h1>
+                        </div>
+                        <p class="box__detail"> Lorem Ipsum is simply dummy </p>
+                        <div class="box__content">
+                            <img class="box__img" src="./img/icon3.png" alt="">
+                            <h1 class="box__title">Lorem Ipsum is simply dummy </h1>
+                        </div>
+                        <p class="box__detail"> Lorem Ipsum is simply dummy </p>
+                    </div>
+
+                </div>
+        </section>
+        <section class="price">
+            <div class="presentation presentation--price">
+                <div class="presentation__intro  intro">
+                    <h1 class=" intro__title intro__title--black">Plant Built For Every One</h1>
+                    <p class=" intro__text intro__text--black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    </p>
+                </div>
+                <div class="option">
+                    <div class="option__price-list price-list">
+                        <div class="price-list__item p-item">
+                            <h2 class="p-item__title">Starter</h2>
+                            <h1 class="p-item__price"><span class="highlight">$9</span>/month</h1>
+                            <p class="p-item__description">Lorem Ipsum is simply dummy text
+                            </p>
+                            <button class="btn btn--price ">Select Plan</button>
+                        </div>
+                        <div class="price-list__item item">
+                            <h2 class="p-item__title">Basic</h2>
+                            <h1 class="p-item__price"><span class="highlight">$27</span>/month</h1>
+                            <p class="p-item__description">Lorem Ipsum is simply dummy text
+                            </p>
+                            <button class="btn btn--price ">Select Plan</button>
+                        </div>
+                        <div class="price-list__item item ">
+                            <h2 class="p-item__title">Pro</h2>
+                            <h1 class="p-item__price"><span class="highlight">$74</span>/month</h1>
+                            <p class="p-item__description">Lorem Ipsum is simply dummy text
+                            </p>
+                            <button class="btn  btn--price-active">Select Plan</button>
+                        </div>
+                        <div class="price-list__item item">
+                            <h2 class="p-item__title">Unlimited</h2>
+                            <h1 class="p-item__price"><span class="highlight">$140</span>/month</h1>
+                            <p class="p-item__description">Lorem Ipsum is simply dummy text
+                            </p>
+                            <button class="btn btn--price ">Select Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="presentation presentation--services">
+            <div class="presentation__intro presentation__intro--services ">
+                <h1 class="intro__title intro__title--black">We Offer Services</h1>
+                <p class="intro__text intro__text--black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book.
+                </p>
+
+            </div>
+            <div class="offers">
+                <div class="offers__offer">
+                    <img class="offer__img" src="./img/icon1.png" alt="">
+                    <div class="offer__text">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing
+                        </p>
+                    </div>
+                </div>
+                <div class="offers__offer">
+                    <img class="offer__img" src="./img/icon2.png" alt="">
+                    <div class="offer__text">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing
+                        </p>
+                    </div>
+                </div>
+                <div class="offers__offer">
+                    <img class="offer__img" src="./img/icon3.png" alt="">
+                    <div class="offer__text">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing
+                        </p>
+                    </div>
+                </div>
+                <div class="offers__offer">
+                    <img class="offer__img" src="./img/icon1.png" alt="">
+                    <div class="offer__text">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing
+                        </p>
+                    </div>
+                </div>
+                <div class="offers__offer">
+                    <img class="offer__img" src="./img/icon2.png" alt="">
+                    <div class="offer__text">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing
+                        </p>
+                    </div>
+                </div>
+                <div class="offers__offer">
+                    <img class="offer__img" src="./img/icon3.png" alt="">
+                    <div class="offer__text">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn--offer">LEARN MORE</button>
+            </div>
+        </section>
+        <section class="presentation presentation--team">
+            <div class="presentation__intro presentation__intro--explore">
+                <h1 class="intro__title intro__title--explore">Meet The Team</h1>
+                <p class="intro__text intro__text--explore">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+            </div>
+            <div class="team-list">
+                <div class="team-list__item item">
+                    <img class="item__img" src="./img/icon1.png" alt="">
+                    <div class="item__content content">
+                        <h1 class="content__text">DAI DO XUAN</h1>
+                        <p class="content__text--small">Co-founder, Lead dev</p>
+                        <p class="content__text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                </div>
+                <div class="team-list__item item">
+                    <img class="item__img" src="./img/icon1.png" alt="">
+                    <div class="item__content content">
+                        <h1 class="content__text">DAI DO XUAN</h1>
+                        <p class="content__text--small">Co-founder, Lead dev</p>
+                        <p class="content__text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                </div>
+                <div class="team-list__item item">
+                    <img class="item__img" src="./img/icon1.png" alt="">
+                    <div class="item__content content">
+                        <h1 class="content__text">DAI DO XUAN</h1>
+                        <p class="content__text--small">Co-founder, Lead dev</p>
+                        <p class="content__text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
     <footer>
         <div class="infomation">
