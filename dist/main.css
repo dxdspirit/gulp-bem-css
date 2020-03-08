@@ -73,38 +73,38 @@ header {
     justify-content: flex-end
 }
 
-.presentation {
+.top {
     margin: auto;
     text-align: center;
     background-color: #7D7D7C;
     min-height: 800px
 }
 
-.presentation--explore {
+.top--explore {
     min-height: 20vh;
     background: #fff
 }
 
-.presentation--pricing {
+.top--pricing {
     min-height: 80vh;
     background: #30d7f5
 }
 
-.presentation--services {
+.top--services {
     min-height: 80vh;
     background: #fff
 }
 
-.presentation__intro {
+.top__intro {
     padding-top: 200px
 }
 
-.presentation__intro--explore,
-.presentation__intro--services {
+.top__intro--explore,
+.top__intro--services {
     padding-top: 70px
 }
 
-.presentation__intro--pricing {
+.top__intro--pricing {
     padding-top: 50px;
     padding-bottom: 50px
 }
@@ -225,7 +225,7 @@ footer li {
     padding-left: 5px
 }
 
-.presentation__button {
+.top__button {
     margin-top: 30px
 }
 
@@ -305,7 +305,7 @@ footer li {
 }
 
 @media screen and(max-width:1024px) {
-    .presentation,
+    .top,
     .pricing-list {
         flex-direction: column
     }
