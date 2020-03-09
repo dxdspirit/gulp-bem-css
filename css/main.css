@@ -81,6 +81,11 @@ nav {
       opacity: 1; }
     .nav-links--active {
       transform: translateX(0%); }
+    .nav-links--current {
+      text-decoration: red; }
+  .current {
+    color: red;
+    border-bottom: 1px solid red; }
   .collapse {
     display: block; }
   .top {
@@ -90,18 +95,18 @@ nav {
       margin-top: 30px; }
     .top--home {
       padding-top: 120px;
-      min-height: 477px;
+      height: 477px;
       background-color: #7D7D7C; }
     .top--price {
       margin-bottom: 20px;
-      min-height: 100vh;
+      height: 100vh;
       background-color: #CAFAFA; }
     .top--services {
-      min-height: 80vh;
+      height: 80vh;
       background-color: white; }
     .top--team {
       max-width: 100%;
-      min-height: 160vh;
+      height: 160vh;
       background-color: #CAFAFA; }
   .intro__title {
     font-weight: bold;
@@ -439,6 +444,9 @@ nav {
       font-weight: bold;
       color: #949391;
       text-decoration: none; }
+  .current {
+    color: red;
+    border-bottom: 1px solid red; }
   .collapse {
     display: none; }
   .collapse {
@@ -821,6 +829,9 @@ nav {
       font-weight: bold;
       color: #949391;
       text-decoration: none; }
+  .current {
+    color: red;
+    border-bottom: 1px solid red; }
   .collapse {
     display: none; }
   .collapse {
@@ -831,7 +842,9 @@ nav {
       background-color: #949391;
       margin: 5px; }
   .current {
-    color: red; }
+    color: red;
+    border-bottom: 1px solid red;
+    border-width: 10px; }
   .top {
     margin: auto;
     text-align: center; }
@@ -1022,7 +1035,9 @@ nav {
       background-color: #949391;
       margin: 5px; }
   .current {
-    color: red; }
+    color: red;
+    border-bottom: 1px solid red;
+    border-spacing: 10px; }
   .top {
     margin: auto;
     text-align: center; }

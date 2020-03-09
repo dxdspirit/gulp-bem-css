@@ -30,8 +30,8 @@
                 <h1><span class="logo--highlight">R</span>WD</h1>
             </div>
             <ul class="nav-links ">
-                <li class="nav-links__link">
-                    <a class="nav-links__title nav-links__title--active " href="#home"> Home</a>
+                <li class="nav-links__link ">
+                    <a class="nav-links__title " href="#home"> Home</a>
                 </li>
                 <li class="nav-links__link">
                     <a class="nav-links__title " href="#explore"> Explore</a>
@@ -56,6 +56,12 @@
             </div>
         </nav>
     </header>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).on('click', 'ul li', function() {
+            $(this).addClass('current').siblings().removeClass('current')
+        })
+    </script>
     <script src="test.js"></script>
     <!--
     .##.....##....###....####.##....##
