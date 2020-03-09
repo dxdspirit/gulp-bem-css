@@ -178,7 +178,7 @@ nav {
     margin: 20px 0 0px 0; }
   .box {
     margin: 0;
-    width: 90%; }
+    width: 100%; }
     .box__img--small {
       margin-right: 10px;
       width: 20px;
@@ -194,10 +194,16 @@ nav {
       font-size: 12px;
       margin-bottom: 20px; }
     .box__content {
-      margin: 20px;
       font-size: 13px;
       width: 100%;
-      display: flex; }
+      float: left; }
+      .box__content--group1 {
+        width: 100%;
+        display: flex;
+        float: left; }
+      .box__content--group2 {
+        display: flex;
+        width: 100%; }
   .option {
     padding-bottom: 20px; }
   .price-list__item {
@@ -566,7 +572,8 @@ nav {
   .exp-group1 {
     float: left; }
   .box {
-    height: auto; }
+    margin: 0;
+    width: 100%; }
     .box__img--small {
       margin-right: 10px;
       width: 20px;
@@ -578,20 +585,20 @@ nav {
       font-size: 15px;
       margin-left: 20px; }
     .box__detail {
-      width: 50%;
       margin-left: 15%;
       font-size: 12px;
       margin-bottom: 20px; }
-    .box__content--group1 {
-      margin: 2.5%;
-      float: left;
-      width: 45%;
-      height: auto; }
-    .box__content--group2 {
-      margin: 2.5%;
-      float: left;
-      width: 95%;
-      height: 100px; }
+    .box__content {
+      font-size: 13px;
+      width: 100%;
+      float: left; }
+      .box__content--group1 {
+        width: 50%;
+        display: flex;
+        float: left; }
+      .box__content--group2 {
+        display: flex;
+        width: 100%; }
   .price-list {
     height: auto; }
     .price-list__item {
