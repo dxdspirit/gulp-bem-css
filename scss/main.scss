@@ -144,7 +144,7 @@ nav {
         }
         &--team {
             max-width: 100%;
-            min-height: 150vh;
+            min-height: 250vh;
             background-color: #CAFAFA;
         }
     }
@@ -637,12 +637,12 @@ nav {
         }
         &--price {
             margin-bottom: 20px;
-            min-height: 90vh;
+            min-height: 150vh;
             background-color: #CAFAFA;
         }
         &--team {
             max-width: 100%;
-            min-height: 100vh;
+            min-height: 180vh;
             background-color: #CAFAFA;
         }
     }
@@ -1105,25 +1105,13 @@ nav {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-    html {
-        overflow-x: hidden;
-    }
-    body {
-        overflow-x: hidden;
-    }
-    body {
-        font-family: 'Poppins', sans-serif;
-    }
     header {
         background: white;
+        height: 8vh;
+        margin: auto;
+        align-items: center;
     }
     nav {
-        height: 8vh;
         height: 100%;
         display: flex;
         justify-content: space-around;
@@ -1166,104 +1154,27 @@ nav {
     .current {
         color: red;
     }
-}
-
-@media only screen and (min-width: 1366px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-    body {
-        font-family: 'Poppins', sans-serif;
-    }
-    header {
-        background: white;
-    }
-    nav {
-        height: 8vh;
-        margin: 0px 5% 0 5%;
-        height: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .logo {
-        flex: 1;
-        letter-spacing: 5px;
-        font-size: 12px;
-        &--highlight {
-            color: red;
-        }
-    }
-    .nav-links {
-        flex: 1;
-        display: flex;
-        justify-content: space-around;
-        &__link {
-            list-style: none;
-        }
-        &__title {
-            letter-spacing: 2px;
-            font-weight: bold;
-            color: rgb(148, 147, 145);
-            text-decoration: none;
-        }
-    }
-    .collapse {
-        display: none;
-    }
-    .collapse {
-        margin: auto;
-        &__line {
-            width: 25px;
-            height: 3px;
-            background-color: rgb(148, 147, 145);
-            margin: 5px;
-        }
-    }
-    .current {
-        color: red;
-    }
+    /////
     .top {
         margin: auto;
         text-align: center;
-        &__intro {
-            &--withborder {
-                padding-bottom: 50px;
-            }
-            &--bottom {
-                background: white;
-                margin-top: 100px;
-            }
-            &--pricing {
-                padding-top: 20px;
-                padding-bottom: 50px;
-            }
-            &--team {
-                padding-top: 70px;
-            }
-        }
+        &__intro {}
         &__button {
             margin-top: 30px;
         }
         &--home {
-            padding-top: 120px;
-            min-height: 477px;
+            padding-top: 250px;
+            height: auto;
             background-color: #7D7D7C;
         }
         &--price {
             margin-bottom: 20px;
-            min-height: 100vh;
+            min-height: 130vh;
             background-color: #CAFAFA;
-        }
-        &--services {
-            min-height: 80vh;
-            background-color: white;
         }
         &--team {
             max-width: 100%;
-            min-height: 150vh;
+            min-height: 160vh;
             background-color: #CAFAFA;
         }
     }
@@ -1271,37 +1182,42 @@ nav {
         &__title {
             font-weight: 500;
             &--white {
-                font-size: 25px;
+                margin-bottom: 10px;
+                font-size: 50px;
                 color: white;
+                font-weight: bold;
             }
             &--black {
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 10px;
                 padding-top: 100px;
                 color: black;
+                font-size: 50px;
+                font-weight: bold;
                 ;
             }
         }
         &__text {
-            margin-top: 20px 0 20px 0;
             text-align: center;
             &--white {
-                margin-top: 20px;
-                font-size: 12px;
+                margin: 0 5% 10px 5%;
+                font-size: 18px;
                 color: white;
+                letter-spacing: 1px;
             }
             &--black {
-                padding-bottom: 20px;
+                margin: 0 5% 20px 5%;
+                font-size: 18px;
                 color: black;
-            }
-            &--bottom {
-                padding: 20px 0 20px 0;
-                font-size: 10px;
+                letter-spacing: 1px;
             }
         }
     }
     .short-border-bottom {
         display: flex;
         &--center {
-            width: 15%;
+            width: 7%;
             border-bottom: 2px solid rgb(70, 166, 230);
             margin: 0 0 40px 45%;
         }
@@ -1312,20 +1228,21 @@ nav {
         }
     }
     .bottom {
-        height: 120px;
+        height: 200px;
         &__bottom-content {
             background: white;
         }
     }
     .bottom-content {
         &__title {
-            font-size: 20px;
-            margin: 30px 0px 10px 0px;
+            margin: 0px 0px 10px 0px;
+            padding-top: 40px;
+            font-size: 45px;
             text-align: center;
         }
         &__text {
-            font-size: 12px;
-            margin: 0px 0px 30px 0px;
+            font-size: 15px;
+            margin: 0px 5% 30px 5%;
             text-align: center;
         }
     }
@@ -1352,12 +1269,16 @@ nav {
     }
     .exp-content {
         &__box {
+            display: float;
             padding: 20px 0 20px 0;
             width: 100%;
-            margin: 20px 0 0px 0;
         }
     }
+    .exp-group1 {
+        float: left;
+    }
     .box {
+        height: auto;
         &__img {
             &--small {
                 margin-right: 10px;
@@ -1374,26 +1295,29 @@ nav {
             margin-left: 20px;
         }
         &__detail {
+            width: 50%;
             margin-left: 15%;
             font-size: 12px;
             margin-bottom: 20px;
         }
         &__content {
-            font-size: 13px;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            margin: 10px 0 10px 0;
+            &--group1 {
+                margin: 2.5%;
+                float: left;
+                width: 45%;
+                height: auto;
+            }
+            &--group2 {
+                margin: 2.5%;
+                float: left;
+                width: 95%;
+                height: 100px;
+            }
         }
     }
-    // // mobile-price
-    // //option
-    .option {
-        padding-bottom: 20px;
-    }
     .price-list {
+        height: auto;
         &__item {
-            margin: 10px 10px 20px 10px;
             background-color: white;
             border-radius: 6px;
             -webkit-box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
@@ -1402,57 +1326,78 @@ nav {
         }
     }
     .p-item {
+        margin: 2.5%;
+        float: left;
+        width: 20%;
+        height: auto;
         &__title {
-            font-size: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
             padding-top: 10px;
         }
         &__price {
-            margin: auto;
-            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: normal;
+            font-size: 15px;
+            &--bigger {
+                font-weight: bold;
+                font-size: 60px;
+            }
+        }
+        &__description {
+            margin: 10px;
+            font-size: 15px;
+            font-weight: 20px;
+            font-weight: bold;
         }
     }
+    // //option
+    .option {}
     // //offer
     .offers {
-        margin-top: 20px;
         float: left;
-        &__offer {
-            margin: 0px 5px 50px 5px;
-            width: 100%;
-            display: inline-flex;
-            align-items: flex-start;
-        }
-    }
-    .offer {
-        width: 100%;
-        &__img {
-            width: 30px;
-            height: 30px;
-        }
-        &__text {
-            text-align: start;
-            padding-left: 5px;
-        }
     }
     // /*TEAM*/
     .team {
         background-color: #CAFAFA;
     }
     .person {
-        float: left;
         &__item {
-            margin: 50px 10px 20px 10px;
             background-color: white;
             border-radius: 6px;
             -webkit-box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
             -moz-box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
             box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
+            &--group1 {
+                margin: 2.5%;
+                float: left;
+                width: 45%;
+                height: auto;
+                background-color: white;
+                border-radius: 6px;
+                -webkit-box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
+                -moz-box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
+                box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
+            }
         }
+    }
+    .group1 {
+        margin-top: 80px;
+        height: auto;
+    }
+    .group2 {
+        margin: 50px 2.5% 0 2.5%;
+        float: left;
+        width: 95%;
+        height: 300px;
     }
     .per-item {
         &__img {
             background: rgb(128, 131, 131);
-            width: 70px;
-            height: 70px;
+            width: 100px;
+            height: 100px;
             margin-left: auto;
             margin-right: auto;
             transform: translateY(-50%);
@@ -1462,14 +1407,18 @@ nav {
             z-index: 4;
             box-shadow: 0px 0px 0px 7px #CAFAFA;
         }
-        &__name {
-            margin-top: 10px;
-        }
+        &__name {}
     }
     .per-name {
+        &__title {
+            margin: 0;
+            font-size: 30px;
+        }
         &__text {
-            margin: 0px 0px 0px 0px;
+            font-size: 15px;
+            margin: 0px 5% 0px 5%;
             &--small {
+                font-size: 18px;
                 margin-top: 5px;
                 margin-bottom: 20px;
             }
@@ -1477,8 +1426,8 @@ nav {
     }
     .social-img {
         margin: 10px 5px 15px 5px;
-        width: 15px;
-        height: 15px;
+        width: 25px;
+        height: 25px;
     }
     // /* button */
     .btn {
@@ -1515,9 +1464,10 @@ nav {
             box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
             text-transform: uppercase;
             margin: 10px 10px;
-            height: 25px;
-            font-size: 12px;
-            width: 100px;
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            width: 200px;
             border-radius: 4px;
             background-color: rgb(14, 174, 238);
             color: white;
@@ -1528,9 +1478,10 @@ nav {
             box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
             text-transform: uppercase;
             margin: 10px 10px;
-            height: 25px;
-            font-size: 12px;
-            width: 100px;
+            font-size: 20px;
+            font-weight: bold;
+            height: 40px;
+            width: 200px;
             border-radius: 4px;
             background-color: red;
             color: white;
@@ -1540,9 +1491,11 @@ nav {
             -moz-box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
             box-shadow: 1px 1px 6px 0px rgba(125, 118, 125, 1);
             margin: 5px 10px;
-            height: 25px;
-            font-size: 12px;
-            width: 100px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            height: 40px;
+            width: 200px;
             border-radius: 4px;
             background-color: rgb(14, 174, 238);
             color: white;
